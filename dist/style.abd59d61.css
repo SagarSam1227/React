@@ -1,0 +1,64 @@
+body{
+    background-color: #1d2232;;
+}
+
+.heading{
+    color: #7f8e93;;
+    text-align: center;
+    margin-top: 47px;
+    font-family: system-ui;
+
+}
+    
+.box{
+    width: 318px;
+    height: 318px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box > div{
+    width: 100px;
+    height: 100px;
+    margin: 1px;
+    margin-left: 3px;
+    border: solid;
+    border-color: #ffffff40;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.main-container{
+    display: flex;
+    margin-left: 290px;
+    margin-top: 105px;
+}
+
+.box > div > h1 {
+    font-family: cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.restart{
+    background: #7f8e93;;
+    border-radius: 18px;
+    padding: 7px;
+    margin-left: 51px;
+    color: #000000a3;
+    border: none;
+    font-size: larger;
+    padding-inline: 95px;
+    font-family: math;
+}
+
+.instruction> h3{
+    background: #000000b3;
+    border-radius: 18px;
+    padding: 7px;
+    margin-left: 51px;
+    color: #ffffff69;
+    text-align: center;
+}
+
